@@ -1,7 +1,7 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 
-function Navlinks({ href, title, offset }:any) {
+function Navlinks({ href, title, offset }: any) {
   return (
     <ScrollLink
       to={href}

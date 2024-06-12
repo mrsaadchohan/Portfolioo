@@ -1,15 +1,15 @@
-import React from 'react';
-import Skillslanguage from './Skillslanguage';
-import { motion, useAnimation } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
+import React from "react";
+import Skillslanguage from "./Skillslanguage";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const skills = [
-  { name: 'HTML' },
-  { name: 'CSS' },
-  { name: 'JAVASCRIPT' },
-  { name: 'TYPESCRIPT' },
-  { name: 'REACT JS' },
-  { name: 'NEXT JS' },
+  { name: "HTML" },
+  { name: "CSS" },
+  { name: "JAVASCRIPT" },
+  { name: "TYPESCRIPT" },
+  { name: "REACT JS" },
+  { name: "NEXT JS" },
 ];
 
 const Skills = () => {
@@ -18,7 +18,7 @@ const Skills = () => {
 
   React.useEffect(() => {
     if (inView) {
-      controls.start('visible');
+      controls.start("visible");
     }
   }, [controls, inView]);
 
@@ -28,9 +28,9 @@ const Skills = () => {
   };
 
   return (
-    <div className='pt-[4rem] md:pt-[8rem] pb-[5rem] bg-[#09101a]' id='Skills'>
-      <h1 className='heading text-[#55e6a5]'>Skills</h1>
-      <div className='w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-x-[2rem] items-center'>
+    <div className="pt-[4rem] md:pt-[8rem] pb-[5rem] bg-[#09101a]" id="Skills">
+      <h1 className="heading text-[#55e6a5]">Skills</h1>
+      <div className="w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-x-[2rem] items-center">
         {skills.map((item, id) => (
           <motion.div
             key={id}
@@ -45,6 +45,6 @@ const Skills = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Skills;
