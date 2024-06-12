@@ -11,7 +11,7 @@ const Typeeffect = () => {
         1000,
       ]}
       //   wrapper="span"
-      className="text-[25px] md:text-[35px] text-[#55e6a5] font-bold uppercase"
+      className="text-[21px] md:text-[35px] text-[#55e6a5] font-bold uppercase"
       speed={50}
       //   style={{ fontSize: '2em', display: 'inline-block' }}
       repeat={Infinity}

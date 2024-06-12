@@ -44,7 +44,7 @@ const Hero = () => {
           animate={controlsText}
           variants={fadeInLeft}
         >
-          <h1 className="text-[35px] md:text-[50px] text-white font-bold">
+          <h1 className="text-[32px] md:text-[50px] text-white font-bold">
             I&apos;M <span className="text-yellow-400">SAAD CHOHAN</span>
           </h1>
           <Typeeffect />
