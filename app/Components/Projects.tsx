@@ -38,11 +38,11 @@ function Projects() {
                 >
                   <Image
                     src={data.images}
-                    // layout="fill"
+                    
                     width={400}
                     height={400}
                     alt="Projects"
-                    className="object-contain p-6"
+                    className="object-contain p-[23px]"
                   />
                 </div>
               </Link>
