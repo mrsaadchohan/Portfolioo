@@ -3,23 +3,23 @@ import Link from "next/link";
 import React from "react";
 const Data = [
   {
-    images: "/images/pic1.png",
+    images: "/images/pic1.PNG",
     link: "https://shoes-one-omega.vercel.app/",
   },
   {
-    images: "/images/pic5.png",
+    images: "/images/pic5.PNG",
     link: "https://www.linkedin.com/posts/saad-chohan_ecommerce-nextjs-sanity-activity-7197485431079239680-eged?utm_source=share&utm_medium=member_desktop",
   },
   {
-    images: "/images/pic4.png",
+    images: "/images/pic4.PNG",
     link: "https://www.linkedin.com/posts/saad-chohan_piaic-nextjs-sanity-activity-7189939533625344002-Fb8U?utm_source=share&utm_medium=member_desktop",
   },
   {
-    images: "/images/pic3.png",
+    images: "/images/pic3.PNG",
     link: "https://panaverse-dao-chi.vercel.app/",
   },
   {
-    images: "/images/pic2.png",
+    images: "/images/pic2.PNG",
     link: "https://fitness-website-peach.vercel.app/",
   },
 ];
