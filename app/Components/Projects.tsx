@@ -34,11 +34,13 @@ function Projects() {
               <Link href={data.link}>
                 <div
                   className="transform cursor-pointer hover:-translate-y-3 transition-all duration-300
-                    relative w-[100%] h-[200px] bg-[#f0ebeb]"
+                    relative w-[100%] h-[200px] bg-[#f0ebeb] flex justify-center"
                 >
                   <Image
                     src={data.images}
-                    layout="fill"
+                    // layout="fill"
+                    width={400}
+                    height={400}
                     alt="Projects"
                     className="object-contain p-6"
                   />

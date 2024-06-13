@@ -44,6 +44,7 @@ const Hero = () => {
           animate={controlsText}
           variants={fadeInLeft}
         >
+          
           <h1 className="text-[32px] md:text-[50px] text-white font-bold">
             I&apos;M <span className="text-yellow-400">SAAD CHOHAN</span>
           </h1>
@@ -73,8 +74,10 @@ const Hero = () => {
           <Image
             src={"/images/u1.jpg"}
             alt="User"
-            layout="fill"
-            objectFit="contain"
+            width={300}
+            height={300}
+            // layout="fill"
+            // objectFit="contain"Y
             className="relative z-[11] w-[100%] h-[100%] object-contain"
           />
         </motion.div>

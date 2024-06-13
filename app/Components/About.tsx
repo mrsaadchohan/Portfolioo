@@ -68,8 +68,10 @@ export default function About() {
           <Image
             src={"/images/about.jpg"}
             alt="User"
-            layout="fill"
-            objectFit="contain"
+            // layout="fill"
+            width={300}
+            height={300}
+            // objectFit="contain"
             className="relative z-[11] w-[100%] h-[100%] object-contain"
           />
         </motion.div>

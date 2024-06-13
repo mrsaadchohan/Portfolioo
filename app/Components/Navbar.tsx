@@ -36,14 +36,15 @@ interface Props {
 }
 function Navbar({ openNav }: Props) {
   return (
-    <div className="">
+    <div>
       <div className=" w-full fixed z-[1000] shadow-md top-0 h-[12vh] bg-[#141c27]">
         <div className="flex justify-between items-center w-[80%] mx-auto h-[100%]">
+        
           <h1 className="flex-[0.6] cursor-pointer text-[25px] text-white font-bold">
             Saad
             <span className="text-yellow-300">Chohan</span>
           </h1>
-
+          
           {Navlinks.map((data, id) => {
             return (
               // <div >{data.link}</div>
