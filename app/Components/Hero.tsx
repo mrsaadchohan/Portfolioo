@@ -37,7 +37,7 @@ const Hero = () => {
 
   return (
     <div className="h-[95vh] bg-[#141c27]" id="Hero">
-      <div className="w-[80%] grid grid-cols-1 mx-auto lg:grid-cols-2 gap-[3rem] h-[100%] items-center md:mt-10">
+      <div className="w-[80%] grid grid-cols-1 mx-auto lg:grid-cols-2 gap-[3rem] h-[100%] items-center mt-10 lg:mt-0">
         <motion.div
           ref={textRef}
           initial="hidden"
@@ -45,7 +45,7 @@ const Hero = () => {
           variants={fadeInLeft}
         >
           
-          <h1 className="text-[32px] md:text-[50px] text-white font-bold">
+          <h1 className="text-[28px] md:text-[50px] text-white font-bold">
             I&apos;M <span className="text-yellow-400">SAAD CHOHAN</span>
           </h1>
           <Typeeffect />
